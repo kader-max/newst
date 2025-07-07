@@ -18,9 +18,11 @@ const Home: React.FC = () => {
         <p className="lead mb-4">
           Take control of your stock with our intuitive and powerful inventory solution.
         </p>
-        <Button variant="primary" size="lg" as={Link} to="/products">
-          View Products
-        </Button>
+        <Link to="/products">
+          <Button variant="primary" size="lg">
+            View Products
+          </Button>
+        </Link>
       </Container>
     </div>
   );
